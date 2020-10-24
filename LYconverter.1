@@ -1,0 +1,10 @@
+distance = int(input("how many light years: "))
+unit = input("spencer years or miles")
+if unit == "spencer years":
+    converted = distance * 588000000000000 / 58400
+    print(f"{distance} light years is {converted} spencer years")
+elif unit == "miles":
+    converted = distance * 588000000000000
+    print(f"{distance} light years is {converted} miles ")
+else:
+    print("sorry please say spencer years or miles ")
